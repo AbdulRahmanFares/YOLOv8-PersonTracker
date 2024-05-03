@@ -1,6 +1,6 @@
 # YOLOv8 - Person Tracker
 
-This repository contains a Python script to detect and track persons in a video stream or a video file using YOLOv8. The script utilizes the Ultralytics YOLOv5 implementation for object detection.
+YOLOv8 - Person Tracker is a Python script designed to detect and track individuals within a live video stream or from a video file using the state-of-the-art YOLOv8 model. Built upon the Ultralytics YOLOv5 implementation for robust object detection, this script offers efficient and accurate person tracking capabilities. Whether you're monitoring a live feed or analyzing recorded footage, YOLOv8 - Person Tracker provides a seamless solution for identifying and tracking individuals in various scenarios, from security surveillance to crowd analysis.
 
 ## Installation
 
@@ -10,15 +10,15 @@ This repository contains a Python script to detect and track persons in a video 
     git clone https://github.com/AbdulRahmanFares/YOLOv8-PersonTracker.git
     ```
 
-2. Navigate to main.py:
+2. Navigate to the cloned directory:
+
+    ```bash
+    cd YOLOv8-PersonTracker
+    ```
 
 ## Usage
 
-1. Run the `main.py` script:
-
-    ```bash
-    python main.py
-    ```
+1. Run the `main.py` script.
 
 2. Press `q` to quit the application.
 
@@ -31,7 +31,8 @@ This repository contains a Python script to detect and track persons in a video 
     cap = cv2.VideoCapture("test\\test_video_1.mp4") # Uncomment this line to test on video
     ```
 
-- To track objects other than persons, modify the `classes` parameter in line 18 of the script. For example, to track cars, change `classes = [0]` to `classes = [2]`.
+- To track objects other than persons, modify the `classes` parameter in line 18 of the script. For example, to track cars, change `classes = [0]` to `classes = [2]`,
+  to track both persons and cars, `classes = [0, 2]`.
 
     ```python
     results = yolo_model.track(
@@ -55,7 +56,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you find this project helpful or would like to contribute to its continued development, consider supporting me with a coffee! Your support is invaluable.
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/farazzrahman)
-
-
-
 
