@@ -22,7 +22,7 @@ while ret:
         # Run inference on the source
         results = yolo_model.track(
             frame,
-            classes = [0],  # Track only persons (Comment this line to track every objects)
+            classes = [0],  # Track only persons (Comment this line to track every objects or replace "0" with the required class code from coco8.yaml)
             persist = True  # Enable object tracking for better stability
         )
 
