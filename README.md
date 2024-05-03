@@ -43,7 +43,7 @@ This repository contains a Python script to detect and track persons in a video 
 
 ## Issues and Contributions
 
-If you encounter any issues or have suggestions for improvement, feel free to [open an issue](https://github.com/AbdulRahmanFares/flightTicketBookingApplication/issues) or submit a pull request.
+If you encounter any issues or have suggestions for improvement, feel free to [open an issue](https://github.com/AbdulRahmanFares/YOLOv8-PersonTracker/issues) or submit a pull request.
 
 
 ## License
