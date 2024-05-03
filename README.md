@@ -1,6 +1,6 @@
 # YOLOv8 - Person Tracker
 
-YOLOv8 - Person Tracker is a Python script designed to detect and track individuals within a live video stream or from a video file using the state-of-the-art YOLOv8 model. Built upon the Ultralytics YOLOv5 implementation for robust object detection, this script offers efficient and accurate person tracking capabilities. Whether you're monitoring a live feed or analyzing recorded footage, YOLOv8 - Person Tracker provides a seamless solution for identifying and tracking individuals in various scenarios, from security surveillance to crowd analysis.
+YOLOv8 - Person Tracker is a Python script designed to detect and track individuals within a live video stream or from a video file using the state-of-the-art YOLOv8 model. This script offers efficient and accurate person tracking abilities. Whether you're monitoring a live feed or analyzing recorded footage, YOLOv8 - Person Tracker provides a seamless solution for identifying and tracking individuals in various scenarios, from security surveillance to crowd analysis.
 
 ## Installation
 
